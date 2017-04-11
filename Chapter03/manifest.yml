@@ -1,10 +1,10 @@
 applications:
 - path: .
-  memory: 128M
+  memory: 256
   instances: 1
   domain: mybluemix.net
-  name: Z2C-rddill
+  name: Z2C-ClaimsRx
   host: Z2C
   disk_quota: 1024M
   services:
-    - Speech to Text-xx
+    - Speech to Text-02
